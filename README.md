@@ -1,63 +1,40 @@
 # News-App 📰
 
-### Overview :
-Kotlin-based Android news app helps users stay up-to-date on the latest headlines.
+## 🧾 About
 
-### Features :
-* Display News in various categories 
-* Dark mode
-* Share news with friends
-* Browse news
-* Bookmark news to read later/ Delete news
-* Listen news with provided Text-To-Speech service
+News-App is built to provide a clean, fast, and accessible news-reading experience.  
+It offers essential features like bookmarks, text-to-speech (TTS), dark mode, and smooth browsing to help users stay updated anytime.
 
- ### Screenshots : 
- 
- <table align="center">
-  <tr>
-    <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/mainactivity.jpeg" alt="News home" style="width:200px;height:400px;"></td>
-    <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/read%20news%20activity.jpeg" alt="Read News" style="width:200px;height:400px;"></td>
-    <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/saved%20news%20activity.jpeg" alt="saved" style="width:200px;height:400px;"></td>
-  </tr>
-  
-  <tr>
-    <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/home.jpeg" alt="News home" style="width:200px;height:400px;"></td>
-    <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/browse.jpeg" alt="read News" style="width:200px;height:400px;"></td>
-    <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/saved.jpeg" alt="saved news" style="width:200px;height:400px;"></td>
-  </tr>
-   
-</table><br><br>
+## 🚀 Features
 
-### Tools and Tech stack used : 
+- View news from multiple categories (business, sports, technology, etc.)
+- Dark mode for comfortable reading
+- Bookmark articles to read later
+- Share news articles with others
+- Listen to articles using text-to-speech (TTS)
+- Smooth browsing and reading experience
 
- * Kotlin
- * XML
- * MVVM Architecture
- * Room database library
- * Android Studio
- * Third party libraries like [retrofit](https://square.github.io/retrofit/), [picasso](https://square.github.io/picasso/), [shimmer](https://github.com/facebook/shimmer-android).
+## 🔧 Tech Stack & Libraries
 
-### Getting Started :
-Note: To run the app you have to add NewsAPI.org key. This API has limited access to daily request for News. 
- * Generate API key from <a href="https://newsapi.org/">News api</a>
- *  Paste the key in 'gradle.properties' *(Create the file if not exists)*
- 
-    API_KEY="<YOUR_API_KEY>"
- * Rebuild app
- 
+- **Kotlin**
+- **XML** for UI Layouts
+- **MVVM** architecture
+- **Room** for local database storage
+- **Retrofit** for network/API requests
+- **Picasso** for image loading
+- **Shimmer** for loading effects
+- Developed using **Android Studio**
 
-### Application link : <a href="https://drive.google.com/file/d/1u0A4mCkY98cfavE32c6GH_bVp0v9wujr/view?usp=sharing">**Click here to download apk**</a>
+## ✅ Contributing
 
-### Contributing
+Contributions are welcome!
 
-   - Contributions are always welcome!
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature/YourFeature`)  
+3. Commit and push your changes  
+4. Open a Pull Request  
 
-   - See [CONTRIBUTING.md](https://github.com/Raj-m01/News-App/blob/master/CONTRIBUTING.md) for ways to get started.
+## 📄 License
 
+This project is licensed under the **MIT License**.
 
-
-### 📝 License 
-
-Copyright (c) 2022 Raj Manjrekar
-
-This project is [MIT](https://github.com/Raj-m01/News-App/blob/master/License) licensed.
